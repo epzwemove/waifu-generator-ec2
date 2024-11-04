@@ -143,17 +143,18 @@ function App() {
     setError(null);
 
     try {
-        const response = await fetch("http://localhost:5000/api/generate-waifu", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({
-                prompt,
-                aspect_ratio: "9:16",
-                width: 768,
-                height: 1280,
-                output_format: "png",
-            }),
-        });
+      const response = await fetch(`http://18.118.168.10:5000/api/generate-waifu`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+            prompt,
+            aspect_ratio: "9:16",
+            width: 768,
+            height: 1280,
+            output_format: "png",
+        }),
+    });
+    
 
         const data = await response.json();
         if (data.errors) {

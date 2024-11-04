@@ -1,0 +1,8 @@
+In a stylized anime look, a powerful ${rpgClass} with ${hairColor} hair and striking ${eyeColor} eyes. She has a ${stance} stance, wearing ${outfitStyle} that is ${outfitDetail}. She carries ${accessory}, and is surrounded by ${auraDescription}. The background is a vibrant, fantasy landscape, fitting with the overall anime-inspired theme. The art style is consistent, using semi-realistic anime shading and clean, defined lines, as if she’s a character from the same anime series.`
+
+node server.mjs
+
+
+
+ssh -i "C:/Users/awkwa/Documents/AWS/EC2 Path/waifu-game-key.pem" ec2-user@3.143.242.157
+
